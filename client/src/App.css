@@ -8,12 +8,11 @@
   height: 1020px;
   background-size: cover;
   background-position: center;
-  
 }
 
 #headerLogo {
   width: 100%;
-  padding-top: 20px;
+  padding-top: 410px;
 }
 
 #imageLogo {
@@ -45,25 +44,32 @@
 
 #subscDiv {
   text-align: right;
+  padding: 0px;
 }
 
 #loginDiv {
   text-align: left;
+  padding: 0px;
 }
 
 #navArea {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 130px;
 }
 
 #howTitle {
   margin-bottom: 20px;
 }
 
+#howTitle h1 {
+  font-size: 60px;
+}
+
 #stepOne {
   border: 4px solid black;
   margin-bottom: 20px;
+  
 }
 
 #stepTwo {
@@ -76,6 +82,25 @@
   margin-bottom: 20px;
 }
 
+.howItTitle {
+  font-size: 35px;
+}
+
+.howItParagraph {
+  font-size: 20px;
+  line-height: 1.75;
+}
+
+#steps {
+  margin-bottom: 140px;
+}
+
+.stashPic {
+  width: 40%;
+  height: auto;
+  margin-bottom: 140px;
+}
+
 @media only screen and (max-width: 768px) {
   #subscDiv {
     text-align: center;
@@ -85,6 +110,15 @@
   }
 
   #loginArea{
-    height: 250px;
+    height: 980px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  #loginArea {
+    height: 700px;
+  }
+  #headerLogo{
+    padding-top: 290px;
   }
 }
