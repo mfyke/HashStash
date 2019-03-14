@@ -101,6 +101,47 @@
   margin-bottom: 140px;
 }
 
+#stashImageContainer {
+  padding: 13% 0px 13% 0px;
+  background-image: url("./images/Stashes1.gif");
+  background-position: center;
+  background-size: 75% auto;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+}
+
+#stashTitleDiv h1 {
+  font-size: 60px;
+}
+
+.stashText h1 {
+  font-size: 100px;
+  max-width: 66%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stashText h2 {
+  font-size: 80px;
+  max-width: 66%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stashText h3 {
+  font-size: 50px;
+  max-width: 66%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stashText p {
+  font-size: 35px;
+  max-width: 66%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media only screen and (max-width: 768px) {
   #subscDiv {
     text-align: center;
@@ -112,13 +153,53 @@
   #loginArea{
     height: 980px;
   }
+
+  .stashText h1 {
+    font-size: 25px;
+
+  }
+  
+  .stashText h2 {
+    font-size: 20px;
+  
+  }
+  
+  .stashText h3 {
+    font-size: 15px;
+  }
+  
+  .stashText p {
+    font-size: 13px;
+  }
+
+  #stashImageContainer {
+    margin-bottom: 90px;
+  }
+
 }
 
 @media only screen and (max-width: 479px) {
   #loginArea {
     height: 700px;
   }
+
   #headerLogo{
     padding-top: 290px;
   }
+  .stashText h1 {
+    font-size: 21px;
+  }
+  
+  .stashText h2 {
+    font-size: 17px;
+  }
+  
+  .stashText h3 {
+    font-size: 13px;
+  }
+  
+  .stashText p {
+    font-size: 11px;
+  }
+
 }
